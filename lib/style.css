@@ -10,11 +10,18 @@ button#cardSubmitButton {
     display: inline-block;
     font-size: 12px;
     border-radius: 4px;
+    
   }
   input#cardsInput{
     background-color:#fcfdff;
+   
     
   }
   h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  div#seeHand{
+    
+    position: center;
+  
   }
