@@ -3,16 +3,119 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="lib/style.css">
-	<title>Poker Hand Evaluator</title>
-	<link rel="icon" href="Images/icon.png">
+    <link rel="stylesheet" href="lib/style.css">
+    <title>Poker Hand Evaluator</title>
+    <link rel="icon" href="Images/icon.png">
 </head>
 
 <body>
-	<h1>Poker Hand Evaluator</h1>
-	<p><a href="HandCounter.html">Return</a> </p>
-  
+    <h1>Poker hands from highest to lowest</h1>
+    <table cellspacing="0" cellpadding="1" align="center">
+        <tbody>
+            <tr>
+                <td id="rankingHand">
+                    <p><b>Ranking Hand</b></p>
+                </td>
+                <td>
+                    <p></p>Example</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="royalFlush">
+                    <p>1.Royal Flush</p>
+                </td>
+                <td>
+                    <p><b>AC, KC, QC, JC, 10C: </b>All OfThe Same Suit</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="straightFlush">
+                    <p>2.Straight Flush</p>
+                </td>
+                <td>
+                    <p><b>1C,2C,3C,4C,5C: </b>Five cards
+                        in a sequence, all in the same suit</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="fourKind">
+                    <p>3.Four of a kind</p>
+                </td>
+                <td>
+                    <p><b>1C,1D,1H,1S,2C: </b>All four
+                        cards of the same rank</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="fullHouse">
+                    <p>4.Full house</p>
+                </td>
+                <td>
+                    <p><b>1C,1D,1H,2C,2D: </b>Three of a
+                        kind with a pair</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="flush">
+                    <p>5.Flush</p>
+                </td>
+                <td>
+                    <p><b>1C,3C,5C,7C,9C: </b>Any five
+                        cards of the same suit, but not in a sequence</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="straight">
+                    <p>6.Straight</p>
+                </td>
+                <td>
+                    <p><b>1C,2S,3C,4D,5C: </b>Five cards
+                        in a sequence, but not of the same suit</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="threeKind">
+                    <p>7.Three of a kind</p>
+                </td>
+                <td>
+                    <p><b>1C,1D,1H,2H,5D: </b>Three
+                        cards of the same rank</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="twoPair">
+                    <p>8.Two pair</p>
+                </td>
+                <td>
+                    <p><b>1C,1D,2C,2D,4H: </b>Two
+                        different pairs</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="pair">
+                    <p>9.Pair</p>
+                </td>
+                <td>
+                    <p><b>1C,1D,2D,3D,4H: </b>Two cards
+                        of the same rank</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="noHand">
+                    <p>10.No Hand</p>
+                </td>
+                <td>
+                    <p>There is no hand </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="HandCounter.html">Return</a> </p>
+
+
+
 </body>
+
 </html>
 <script src="lib/script.js"></script>
 <script src="lib/CardProccessingFunctions.js"></script>

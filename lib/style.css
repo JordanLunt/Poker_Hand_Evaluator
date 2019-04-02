@@ -37,4 +37,9 @@ button#cardSubmitButton {
   p {
     text-align: center;
   }
-  
+ 
+  table, tr, td {
+    border: 1px solid black;
+    padding: auto!;
+    text-align: center;
+  }
