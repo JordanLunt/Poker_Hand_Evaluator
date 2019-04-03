@@ -1,45 +1,55 @@
-body {background-color: #f0f8ff
-}
+body {
+  background-color: #b4cbe0;
+  margin: auto;
+  
+} 
 
 button#cardSubmitButton {
-    background-color:#008CBA; /* Blue */
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    border-radius: 4px; 
-  }
+   background-color:#008CBA; /* Blue */
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   border-radius: 4px; 
+ }
 
-  input#cardsInput{
-    background-color:#fcfdff;
-  }
+input#cardsInput{
+   background-color:#fcfdff;
+ }
 
-  h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-  }
-
-  div#seeHand{
-    text-align: center;
-  }
-
-  div#displayResult{
-    text-align: center;
-    padding-top: 5px;
-  }
-  
-  label {
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
+ h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   border: 10px double black;
+   padding: 25px;
+   background: #94b9e4;;
+   background-repeat: no-repeat;
+   background-origin: border-box;
+   margin-top: auto;
+ }
  
-  table, tr, td {
-    border: 1px solid black;
-    padding: auto!;
-    text-align: center;
-  }
+
+ div#seeHand{
+   text-align: center;
+ }
+
+ div#displayResult{
+   text-align: center;
+   padding-top: 5px;
+ }
+ 
+ label {
+   text-align: center;
+ }
+ p {
+   text-align: center;
+ }
+
+ table, tr, td {
+   border: 1px solid black;
+   padding: auto!;
+   text-align: center;
+ }
